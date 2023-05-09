@@ -20,8 +20,11 @@
   background-color: rgb(212, 212, 212);
   border-radius: 10px;
   text-align: center;
+  transition: 1.5s;
 }
-
+.skill-item:hover {
+  background-color: rgba(67, 67, 67);
+}
 .skills-logo {
   width: 3rem;
   height: auto;
@@ -37,7 +40,11 @@
     grid-gap: 0.6rem;
     text-align: center;
   }
-  .parragraft {
+  .title-icon {
     text-align: center;
+  }
+  .skills-logo {
+    width: 5rem;
+    height: auto;
   }
 }

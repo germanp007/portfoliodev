@@ -9,15 +9,18 @@ export const Skills = () => {
         </h1>
         <p>some technologies have beginner knowledge</p>
       </div>
+
       <div className="skills-container">
-        {skills.map((skill) => (
-          <div id="item" className="skill-item" key={skill.id}>
-            <p style={{ color: "black" }} className="parragraft">
-              {skill.name}
-            </p>
-            <img src={skill.url} alt={skill.name} className="skills-logo" />
-          </div>
-        ))}
+        {skills
+          .filter((e) => e.language)
+          .map((skill) => (
+            <div id="item" className="skill-item">
+              <p style={{ color: "black" }} className="title-icon">
+                {skill.name}
+              </p>
+              <img src={skill.url} alt={skill.name} className="skills-logo" />
+            </div>
+          ))}
       </div>
     </section>
   );
