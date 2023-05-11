@@ -4,6 +4,7 @@ import { HeroSvg } from "./HeroSvg";
 import "./hero.css";
 import { Social } from "./Social";
 import resume from "../pdf/germancv.pdf";
+
 export const Hero = () => {
   return (
     <section id="home" className="hero-section">

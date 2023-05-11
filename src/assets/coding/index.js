@@ -23,3 +23,4 @@ export { default as figma } from "./figma.png";
 export { default as githubpages } from "./githubpages.png";
 export { default as boostrap } from "./bootstrap.png";
 export { default as materialui } from "./materialui.png";
+export { default as axios } from "./axios.png";

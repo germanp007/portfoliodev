@@ -1,4 +1,5 @@
 import { skills } from "../data/skills";
+import { SkillCard } from "./SkillCard";
 import "./skills.css";
 export const Skills = () => {
   return (
@@ -9,19 +10,17 @@ export const Skills = () => {
         </h1>
         <p>some technologies have beginner knowledge</p>
       </div>
-
-      <div className="skills-container">
-        {skills
-          .filter((e) => e.language)
-          .map((skill) => (
-            <div id="item" className="skill-item">
-              <p style={{ color: "black" }} className="title-icon">
-                {skill.name}
-              </p>
-              <img src={skill.url} alt={skill.name} className="skills-logo" />
-            </div>
-          ))}
-      </div>
+      <SkillCard
+        skills={skills.filter((e) => e.language)}
+        title="Programing"
+        title2="Languages."
+      />
+      <SkillCard
+        skills={skills.filter((e) => e.framework)}
+        title="Framewoks."
+      />
+      <SkillCard skills={skills.filter((e) => e.tools)} title="Tools." />
+      <SkillCard skills={skills.filter((e) => e.devops)} title="Framewoks." />
     </section>
   );
 };

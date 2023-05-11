@@ -24,6 +24,7 @@ import {
   githubpages,
   figma,
   firebase,
+  axios,
 } from "../assets/coding";
 
 export const skills = [
@@ -83,7 +84,7 @@ export const skills = [
   },
   {
     id: 10,
-    name: "Redux",
+    name: "Redux-Toolkit",
     url: redux,
     tools: true,
   },
@@ -176,5 +177,11 @@ export const skills = [
     name: "Firebase",
     url: firebase,
     tools: true,
+  },
+  {
+    id: 26,
+    name: "Axios",
+    url: axios,
+    framework: true,
   },
 ];
