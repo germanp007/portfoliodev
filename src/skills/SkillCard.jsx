@@ -1,7 +1,7 @@
 export const SkillCard = ({ skills, title, title2 }) => {
   return (
     <>
-      <div>
+      <div className="title-stack">
         <h3>
           {title} <span style={{ color: "#26e6c6" }}>{title2}</span>
         </h3>

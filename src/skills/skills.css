@@ -33,7 +33,9 @@
   height: auto;
   transition: transform 0.5s;
 }
-
+.title-stack {
+  margin-top: 45px;
+}
 .title-icon {
   color: black;
   transition: transform 0.5s;
@@ -65,5 +67,8 @@
   .skills-logo {
     width: 5rem;
     height: auto;
+  }
+  .title-stack {
+    margin-top: 45px;
   }
 }

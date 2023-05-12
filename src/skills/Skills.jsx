@@ -10,6 +10,7 @@ export const Skills = () => {
         </h1>
         <p>some technologies have beginner knowledge</p>
       </div>
+
       <SkillCard
         skills={skills.filter((e) => e.language)}
         title="Programing"

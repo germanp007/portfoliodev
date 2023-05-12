@@ -26,12 +26,12 @@
 }
 .photo {
   position: absolute;
-  left: 56%;
+  left: 54%;
   top: 40%;
   transform: translate(-50%, -50%) rotate(5deg);
   width: 230px;
   /* height: auto; */
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 @media screen and (min-width: 950px) {
