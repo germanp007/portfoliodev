@@ -2,7 +2,14 @@ import photo from "../../assets/german2.png";
 export const AboutSvg = () => {
   return (
     <div className="svg-photo-container">
-      <svg
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill="#26E6C6"
+          d="M31.7,-51.2C41.3,-49.3,49.5,-41.3,55,-31.7C60.5,-22.2,63.4,-11.1,66.1,1.6C68.8,14.2,71.4,28.5,67.9,41.6C64.4,54.6,54.9,66.5,42.5,73.6C30.2,80.6,15.1,82.7,0.9,81.1C-13.2,79.5,-26.5,74.2,-40.4,68C-54.2,61.9,-68.7,55,-69,43.5C-69.3,32,-55.3,16,-53.7,0.9C-52.1,-14.2,-63,-28.4,-63.3,-40.9C-63.6,-53.4,-53.4,-64.1,-41.1,-64.4C-28.8,-64.7,-14.4,-54.5,-1.7,-51.6C11,-48.7,22.1,-53,31.7,-51.2Z"
+          transform="translate(100 100)"
+        />
+      </svg>
+      {/* <svg
         className="about-image"
         viewBox="0 0 550 592"
         fill="none"
@@ -59,7 +66,7 @@ export const AboutSvg = () => {
             />
           </pattern>
         </defs>
-      </svg>
+      </svg> */}
       <img src={photo} alt="" className="photo" />
     </div>
   );

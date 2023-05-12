@@ -1,27 +1,31 @@
 import { projects } from "../data/projects";
 import "./projects.css";
+
 export const Projects = () => {
   return (
-    <div>
-      {projects.map((item, index) => (
-        <>
+    <section className="projects-section">
+      <div className="projects-container">
+        {projects.map((item) => (
           <div
-            key={index}
+            key={item.id}
             className="style-card"
             style={{
-              color: "white",
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${item.image})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              width: "200px",
-              height: "200px",
             }}
           >
             {" "}
-            <h3>{item.title}</h3>
+            <div>
+              <h3>{item.title}</h3>
+            </div>
+            <div className="projects-description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a className="link" href={item.url} target="_blank">
+                Go there
+              </a>
+            </div>
           </div>
-        </>
-      ))}
-    </div>
+        ))}
+      </div>
+    </section>
   );
 };
