@@ -1,0 +1,46 @@
+.contact-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-title {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.form-container {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form {
+  background: rgb(46, 46, 46);
+  padding: 15px 25px;
+  border-radius: 10px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form > label {
+  color: var(--title-color);
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+.form > input,
+textarea {
+  background-color: #1d1d1d;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+#submit {
+  background-color: #26e6c6;
+  color: #1d1d1d;
+}

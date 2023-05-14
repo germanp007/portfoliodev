@@ -3,6 +3,7 @@ import { Hero } from "./hero/Hero";
 import { About } from "../src/about/About";
 import { Skills } from "./skills/Skills";
 import { Projects } from "./projects/Projects";
+import { Contact } from "./contact/Contact";
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </main>
   );
 };

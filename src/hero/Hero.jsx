@@ -22,7 +22,7 @@ export const Hero = () => {
             quality work
           </p>
           <div className="cv-container">
-            <a download href={resume} className="botton">
+            <a download href={resume} className="button">
               <i
                 className="ri-download-2-fill"
                 style={{ fontSize: "20px" }}

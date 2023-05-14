@@ -3,7 +3,13 @@ import "./projects.css";
 
 export const Projects = () => {
   return (
-    <section className="projects-section">
+    <section id="projects" className="projects-section">
+      <div className="title-projects-section">
+        <h1 style={{ textAlign: "center" }}>
+          Proje
+          <span style={{ color: "#26e6c6" }}>cts</span>
+        </h1>
+      </div>
       <div className="projects-container">
         {projects.map((item) => (
           <div
@@ -14,11 +20,11 @@ export const Projects = () => {
             }}
           >
             {" "}
-            <div>
+            <div className="title-description">
               <h3>{item.title}</h3>
             </div>
             <div className="projects-description">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>{item.description}</p>
               <a className="link" href={item.url} target="_blank">
                 Go there
               </a>

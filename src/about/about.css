@@ -1,6 +1,5 @@
 .about-section {
-  min-height: 100vh;
-  /* text-align: center; */
+  height: 140vh;
   display: flex;
   flex-direction: column;
 }

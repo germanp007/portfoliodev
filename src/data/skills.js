@@ -25,6 +25,7 @@ import {
   figma,
   firebase,
   axios,
+  jquery,
 } from "../assets/coding";
 
 export const skills = [
@@ -183,5 +184,11 @@ export const skills = [
     name: "Axios",
     url: axios,
     framework: true,
+  },
+  {
+    id: 27,
+    name: "JQuery",
+    url: jquery,
+    tools: true,
   },
 ];
