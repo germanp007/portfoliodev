@@ -40,16 +40,37 @@
   color: black;
   transition: transform 0.5s;
 }
-.skill-item:hover {
-  transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
-}
-.skill-item:hover .title-icon {
-  transform: translateZ(30px);
-}
-.skill-item:hover .skills-logo {
-  transform: translateZ(30px);
-}
 
+.skill-item:nth-child(2) {
+  transition-delay: 200ms;
+}
+.skill-item:nth-child(3) {
+  transition-delay: 400ms;
+}
+.skill-item:nth-child(4) {
+  transition-delay: 600ms;
+}
+.skill-item:nth-child(5) {
+  transition-delay: 800ms;
+}
+.skill-item:nth-child(6) {
+  transition-delay: 1000ms;
+}
+.skill-item:nth-child(7) {
+  transition-delay: 200ms;
+}
+.skill-item:nth-child(8) {
+  transition-delay: 400ms;
+}
+.skill-item:nth-child(9) {
+  transition-delay: 600ms;
+}
+.skill-item:nth-child(10) {
+  transition-delay: 800ms;
+}
+.skill-item:nth-child(11) {
+  transition-delay: 1000ms;
+}
 @media screen and (min-width: 950px) {
   .skills-section {
     margin: 150px 150px;

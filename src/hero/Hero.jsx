@@ -1,4 +1,6 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import picture from "../assets/picture.png";
 import { HeroSvg } from "./HeroSvg";
 import "./hero.css";
@@ -6,9 +8,14 @@ import { Social } from "./Social";
 import resume from "../pdf/germancv.pdf";
 
 export const Hero = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <section id="home" className="hero-section">
-      <div className="presentation">
+      <div className="presentation" data-aos="fade-up">
         <article>
           <h3>
             Hello, <span style={{ color: "#26e6c6" }}>I'm</span>
@@ -33,7 +40,7 @@ export const Hero = () => {
         </article>{" "}
       </div>
 
-      <div className="svg-image-container">
+      <div className="svg-image-container" data-aos="fade-down">
         <HeroSvg />
         <img src={picture} alt="picture" className="hero-image" />
         <Social />

@@ -1,7 +1,15 @@
 import { projects } from "../data/projects";
+import AOS from "aos";
+import { useEffect } from "react";
+
 import "./projects.css";
 
 export const Projects = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 4000,
+    });
+  }, []);
   return (
     <section id="projects" className="projects-section">
       <div className="title-projects-section">
@@ -15,6 +23,7 @@ export const Projects = () => {
           <div
             key={item.id}
             className="style-card"
+            data-aos="zoom-in-up"
             style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${item.image})`,
             }}

@@ -1,5 +1,5 @@
 .about-section {
-  height: 140vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -14,21 +14,29 @@
   display: flex;
   justify-content: center;
 }
+.photo-container {
+  width: 200px;
+  height: 200px;
+  /* transform: rotate(36deg);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); */
+  border: 4px solid #26e6c6;
+  overflow: hidden;
+  transform: rotate(50deg);
+  border-radius: 70% 40% 85% 50%;
+}
 .about-image-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
-.about-image {
-  height: 250px;
-  margin: auto;
-}
+
 .photo {
   position: absolute;
   left: 54%;
-  bottom: -10%;
-  transform: translate(-50%, -50%) rotate(5deg);
-  width: 70vw;
+  bottom: -40%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 280px;
   height: auto;
   border-radius: 30%;
 }
@@ -60,17 +68,22 @@
     position: relative;
     width: 420px;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .about-image {
-    height: 350px;
-    margin: auto;
+  .photo-container {
+    width: 60%;
+    height: 60%;
+    border: 4px solid #26e6c6;
   }
+
   .photo {
     width: 350px;
     height: auto;
     position: absolute;
     left: 55%;
-    bottom: -5%;
+    bottom: -35%;
     border-radius: 50%;
   }
 }

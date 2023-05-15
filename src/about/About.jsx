@@ -1,10 +1,17 @@
 import "./about.css";
+// import AOS from "aos";
+// import { useEffect } from "react";
 import { AboutSvg as Image } from "./aboutsvg/AboutSvg";
 
 export const About = () => {
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 3000,
+  //   });
+  // }, []);
   return (
     <section id="about" className="about-section">
-      <div className="about-text">
+      <div className="about-text" data-aos="fade-up">
         <h1>
           About <span style={{ color: "#26e6c6", textAlign: "left" }}>Me</span>
         </h1>
@@ -17,7 +24,7 @@ export const About = () => {
           experiences.
         </p>
       </div>
-      <div className="about-image-container">
+      <div className="about-image-container" data-aos="fade-up">
         <Image />
       </div>
     </section>
