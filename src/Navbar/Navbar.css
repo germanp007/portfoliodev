@@ -20,7 +20,6 @@ header {
   max-width: 55vw;
   background: rgba(67, 67, 67, 0.5);
   backdrop-filter: blur(10px);
-  /* margin-left: 180px; */
 }
 
 .nav-group {
@@ -29,6 +28,7 @@ header {
   font-weight: 600;
   color: var(--title-color);
   transition: color 2s ease;
+  cursor: pointer;
 }
 .nav-group:hover {
   color: #26e6c6;

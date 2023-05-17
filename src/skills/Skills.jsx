@@ -26,7 +26,7 @@ export const Skills = () => {
       />
       <SkillCard
         skills={skills.filter((e) => e.framework)}
-        title="Framewoks."
+        title="Frameworks."
       />
       <SkillCard skills={skills.filter((e) => e.tools)} title="Tools." />
       <SkillCard skills={skills.filter((e) => e.devops)} title="DevOps." />
