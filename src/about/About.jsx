@@ -18,7 +18,7 @@ export const About = () => {
         <p>
           I am a Front End developer with 2 years of experience in the
           programming field. Throughout my professional career, I have worked
-          with languages such as JavaScript, HTML, CSS, and libraries such as
+          with technologies such as JavaScript, HTML, CSS, and libraries such as
           React, NextJs, Redux, Bootstrap, SASS. I am passionate about
           developing user interfaces and creating engaging and intuitive user
           experiences.
