@@ -7,6 +7,8 @@ import {
   todolist,
   travel,
   wedding,
+  clicare,
+  pokemon,
 } from "../assets/projectsimages";
 
 export const projects = [
@@ -67,5 +69,20 @@ export const projects = [
     description:
       "Simple TODO List for practicing Manipulation of the DOM and Logic",
     image: todolist,
+  },
+  {
+    id: 9,
+    title: "Shopping Cart",
+    url: "https://clicare.io",
+    description:
+      "Shopping cart made for Marcketplace Clicare this company sells healthcare products",
+    image: clicare,
+  },
+  {
+    id: 10,
+    title: "Pokemon App",
+    url: "https://pokemon-appdev.netlify.app/",
+    description: "Funny App about pokemon characters and their evolutions",
+    image: pokemon,
   },
 ];
