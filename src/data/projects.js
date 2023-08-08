@@ -1,4 +1,4 @@
-import {
+ponsiveimport {
   bankingapp,
   dicegame,
   gifgenerator,
@@ -90,7 +90,7 @@ export const projects = [
     id: 11,
     title: "Landing Page",
     url: "https://landingpage-frontendmentor-challenge.netlify.app/",
-    description: "Landing page with fancy design",
+    description: "Responsive Landing page with fancy design",
     image: landingpage,
   },
 ];
