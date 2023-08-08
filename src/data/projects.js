@@ -90,7 +90,7 @@ export const projects = [
     id: 11,
     title: "Landing Page",
     url: "https://landingpage-frontendmentor-challenge.netlify.app/",
-    description: "Landing paga with fancy design",
+    description: "Landing page with fancy design",
     image: landingpage,
   },
 ];
