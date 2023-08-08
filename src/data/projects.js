@@ -9,6 +9,7 @@ import {
   wedding,
   clicare,
   pokemon,
+  landingpage
 } from "../assets/projectsimages";
 
 export const projects = [
@@ -84,5 +85,12 @@ export const projects = [
     url: "https://pokemon-appdev.netlify.app/",
     description: "Funny App about pokemon characters and their evolutions",
     image: pokemon,
+  },
+  {
+    id: 11,
+    title: "Landing Page",
+    url: "https://landingpage-frontendmentor-challenge.netlify.app/",
+    description: "Landing paga with fancy design",
+    image: landingpage,
   },
 ];
