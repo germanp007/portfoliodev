@@ -34,7 +34,12 @@ export const Projects = () => {
             </div>
             <div className="projects-description">
               <p>{item.description}</p>
-              <a className="link" href={item.url} target="_blank">
+              <a
+                className="link"
+                href={item.url}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Go there
               </a>
             </div>

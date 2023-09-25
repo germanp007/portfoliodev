@@ -8,3 +8,4 @@ export { default as travel } from "./travel.jpg";
 export { default as wedding } from "./wedding.jpg";
 export { default as clicare } from "./clicare.png";
 export { default as pokemon } from "./pokemon.jpg";
+export { default as landingpage } from "./landingPage.png";

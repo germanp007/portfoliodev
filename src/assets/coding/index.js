@@ -26,3 +26,4 @@ export { default as materialui } from "./materialui.png";
 export { default as axios } from "./axios.png";
 export { default as jquery } from "./jquery.png";
 export { default as ts } from "./ts.png";
+export { default as chat } from "./chatgpt.png";

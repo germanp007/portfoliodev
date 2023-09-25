@@ -30,6 +30,7 @@ export const Skills = () => {
       />
       <SkillCard skills={skills.filter((e) => e.tools)} title="Tools." />
       <SkillCard skills={skills.filter((e) => e.devops)} title="DevOps." />
+      <SkillCard skills={skills.filter((e) => e.prompt)} title="Prompt." />
     </section>
   );
 };

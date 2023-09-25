@@ -2,7 +2,7 @@ import AOS from "aos";
 import { useEffect } from "react";
 import "./skills.css";
 
-export const SkillCard = ({ skills, title, title2 }) => {
+export const SkillCard = ({ skills, title, title2 = "" }) => {
   useEffect(() => {
     AOS.init({
       duration: 1000,

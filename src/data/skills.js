@@ -27,6 +27,7 @@ import {
   axios,
   jquery,
   ts,
+  chat,
 } from "../assets/coding";
 
 export const skills = [
@@ -197,5 +198,11 @@ export const skills = [
     name: "JQuery",
     url: jquery,
     tools: true,
+  },
+  {
+    id: 29,
+    name: "Chat-Gpt",
+    url: chat,
+    prompt: true,
   },
 ];
