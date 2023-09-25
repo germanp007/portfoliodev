@@ -1,4 +1,4 @@
-import {
+ponsiveimport {
   bankingapp,
   dicegame,
   gifgenerator,
@@ -9,7 +9,11 @@ import {
   wedding,
   clicare,
   pokemon,
+<<<<<<< HEAD
   landingpage,
+=======
+  landingpage
+>>>>>>> 47ee5d999ff30a3a171de0e0f8a5693edaa48574
 } from "../assets/projectsimages";
 
 export const projects = [
