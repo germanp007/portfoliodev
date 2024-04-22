@@ -8,8 +8,7 @@ export { default as travel } from "./travel.jpg";
 export { default as wedding } from "./wedding.jpg";
 export { default as clicare } from "./clicare.png";
 export { default as pokemon } from "./pokemon.jpg";
-<<<<<<< HEAD
 export { default as landingpage } from "./landingPage.png";
-=======
-export {default as landingpage } from "./landingPage.png"
->>>>>>> 47ee5d999ff30a3a171de0e0f8a5693edaa48574
+export { default as timetracker } from "./timetracker.png";
+export { default as tipCalculator } from "./tipCalculator.png";
+export { default as fylo } from "./fylo.png";

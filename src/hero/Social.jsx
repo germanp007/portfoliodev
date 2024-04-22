@@ -7,6 +7,7 @@ export const Social = () => {
         href="https://www.linkedin.com/in/german-pintodev/"
         target="_blank"
         className="social-media"
+        rel="noreferrer"
       >
         <i className="ri-linkedin-box-fill"></i>
       </a>
@@ -14,6 +15,7 @@ export const Social = () => {
         href="https://github.com/germanp007"
         target="_blank"
         className="social-media"
+        rel="noreferrer"
       >
         <i className="ri-github-fill"></i>
       </a>
@@ -21,6 +23,7 @@ export const Social = () => {
         href="https://twitter.com/GermanPinto007"
         target="_blank"
         className="social-media"
+        rel="noreferrer"
       >
         <i className="ri-twitter-fill"></i>
       </a>
@@ -28,8 +31,17 @@ export const Social = () => {
         href="https://www.instagram.com/pintogerman007/"
         target="_blank"
         className="social-media"
+        rel="noreferrer"
       >
         <i className="ri-instagram-fill"></i>
+      </a>
+      <a
+        href="https://www.frontendmentor.io/profile/germanp007"
+        target="_blank"
+        className="social-media"
+        rel="noreferrer"
+      >
+        <i className="ri-code-s-slash-line"></i>
       </a>
     </div>
   );

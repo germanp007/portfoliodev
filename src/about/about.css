@@ -9,6 +9,7 @@
 }
 .svg-photo-container {
   position: relative;
+  margin-top: 2rem;
   width: 90vw;
   max-height: 392;
   display: flex;

@@ -1,4 +1,4 @@
-ponsiveimport {
+import {
   bankingapp,
   dicegame,
   gifgenerator,
@@ -9,11 +9,10 @@ ponsiveimport {
   wedding,
   clicare,
   pokemon,
-<<<<<<< HEAD
   landingpage,
-=======
-  landingpage
->>>>>>> 47ee5d999ff30a3a171de0e0f8a5693edaa48574
+  timetracker,
+  tipCalculator,
+  fylo,
 } from "../assets/projectsimages";
 
 export const projects = [
@@ -96,5 +95,27 @@ export const projects = [
     url: "https://landingpage-frontendmentor-challenge.netlify.app/",
     description: "Responsive Landing page with fancy design",
     image: landingpage,
+  },
+  {
+    id: 12,
+    title: "Time Tracking Dashboard",
+    url: "https://frontendmentor-challenge21.netlify.app/",
+    description: "Responsive Time Tracking Dashboard with animation",
+    image: timetracker,
+  },
+  {
+    id: 13,
+    title: "Tip Calculator",
+    url: "https://frontendmentor-challenge22-germanp007.netlify.app/",
+    description:
+      "Tip Calculator App, it uses to divide Bill between people based on Tips percentage.",
+    image: tipCalculator,
+  },
+  {
+    id: 14,
+    title: "Fylo Landing Page",
+    url: "https://frontendmentor-challenge24.netlify.app/",
+    description: "A Landing with responsive design.",
+    image: fylo,
   },
 ];
